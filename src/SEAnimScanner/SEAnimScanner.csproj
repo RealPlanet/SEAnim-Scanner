@@ -50,7 +50,8 @@
     </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>ICON.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SELib">
@@ -120,10 +121,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ICON.ico" />
-    <Content Include="LICENSE.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Resources\back_white_matte.jpeg" />
     <None Include="Resources\back_black_matte.jpeg" />
   </ItemGroup>
